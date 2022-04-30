@@ -1,0 +1,116 @@
+/* @media screen and (max-width: 960px) {
+    .button-demo .p-button {
+        width: 100%;
+    }
+} */
+/* FormDemo.css */
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(179deg, #9229d9,hsl(301, 98%, 50%))
+}
+
+.form-demo .card {
+    min-width: 450px;
+}
+
+.form-demo .card form {
+    margin-top: 2rem;
+}
+
+.form-demo .card .field {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    div.button-grid {
+        display: grid;
+        grid-template-columns: 6rem 6rem 6rem;
+        grid-gap: 0.9rem;
+        /* border: 2px solid rgb(248, 246, 246); */
+        background-color:transparent;
+        width: 22.3rem;
+        padding: 1rem;
+    }
+
+    div.card-form {
+        /* border: 2px solid rgb(218, 23, 23); */
+        background-color:transparent;
+        width: 20rem;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    div.second-Page {
+        display: flex;
+        justify-content: space-evenly;
+        width: 20.3rem;
+    }
+  
+}
+
+.card-form {
+    /* border: 2px solid rgb(248, 246, 246); */
+    background-color:transparent;
+    width: 30rem;
+    padding: 1rem;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+
+}
+
+.second-Page {
+    /* border: 2px solid rgb(238, 237, 237); */
+    display: flex;
+    justify-content: space-evenly;
+    width: 36.3rem;
+   
+}
+.second-Page1 {
+    /* border: 2px solid rgb(238, 237, 237); */
+    display: flex;
+    justify-content: space-evenly;
+    width: 36.3rem;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 2rem;
+    /* border: 2px solid rgb(255, 252, 252); */
+    background-color:rgb(43, 82, 222);
+    width: 36.3rem;
+    padding: 1rem;  
+
+}
+
+
+.btn-sign {
+    padding: 1rem;
+}
+
+.btn-sign1 {
+    grid-row: auto;
+    background-color: green;
+
+}
